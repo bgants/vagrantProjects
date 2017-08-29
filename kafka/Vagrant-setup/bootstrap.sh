@@ -13,3 +13,7 @@ apt-get -y install oracle-java8-installer
 
 echo "export JAVA_HOME=/usr/lib/jvm/java-8-oracle" >> /etc/environment
 
+#Don't really like this part becuse I have no control over what/where version 
+#as it changes etc..
+wget "http://apache.cs.utah.edu/kafka/0.11.0.0/kafka_2.11-0.11.0.0.tgz" -O /mnt/kafka.tgz
+
